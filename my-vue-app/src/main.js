@@ -9,6 +9,8 @@ Vue.config.productionTip = false
 new Vue({
   router,
   store,
+  axios,
+  
   created () {
     const userInfo = localStorage.getItem('user')
     if (userInfo) {
